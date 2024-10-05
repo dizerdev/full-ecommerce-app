@@ -1,0 +1,48 @@
+const data = {
+  products: [
+    {
+      name: 'Camiseta One',
+      slug: 'camiseta-one',
+      category: 'Camisetas',
+      image: '/images/shirt1.jpg',
+      price: 70,
+      brand: 'Nike',
+      rating: 4.5,
+      numReviews: 8,
+      countInStock: 10,
+      description: 'Camisa original diversos tamanhos',
+      isFeatured: true,
+      banner: '/images/banner1.jpg',
+    },
+    {
+      name: 'Camiseta Two',
+      slug: 'camiseta-two',
+      category: 'Camisetas',
+      image: '/images/shirt2.jpg',
+      price: 90,
+      brand: 'Ripcurl',
+      rating: 4.3,
+      numReviews: 12,
+      countInStock: 8,
+      description: 'Camisa original diversos tamanhos',
+      isFeatured: true,
+      banner: '/images/banner2.jpg',
+    },
+    {
+      name: 'Camiseta Three',
+      slug: 'camiseta-three',
+      category: 'Camisetas',
+      image: '/images/shirt3.jpg',
+      price: 120,
+      brand: 'Adidas',
+      rating: 4.8,
+      numReviews: 5,
+      countInStock: 12,
+      description: 'Camisa original diversos tamanhos',
+      isFeatured: true,
+      banner: '/images/banner3.jpg',
+    },
+  ],
+};
+
+export default data;
